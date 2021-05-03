@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("button.bu").click(function(){
+        $("p.pa").addClass("red");});
+    $("img.img").hide(function(){
+        $("img.img").hide();});
+    $("button.b2").click(function(){
+        $("img.img").show();});
+    $("p.p3").toggle(function(){
+        $('p.p3').hide();}); 
+    $("p.p4").toggle(function(){
+        $('p.p4').hide();});
+    $("p.p5").toggle(function(){
+        $('p.p5').hide();});   
+    $('button.b3').click(function(){
+        $('p.p3').slideDown();
+        $('p.p4').slideDown(2500);
+        $('p.p5').slideDown(3500);});
+    
+    
+    });
+    </script>
+
+                            
+
+    <title>Document</title>
+</head>
+<main>
+
+<article>
+    <h1>AddClass</h1>
+    <p class="pa">Click to the button to add class 'red' to this paragraph</p>
+    <button class="bu">AddClass</button>
+    <hr>
+</article>
+<article><h1>SlideToggle</h1>
+    <p class="p2">Click to the button to slidetoggle a hidden image</p>
+    <button class="b2">SlideToggle</button>
+    <img src="x.png" alt="#" class="img" width="200px" height="200px">
+    <hr>
+
+</article>
+<article><h1>Append</h1>
+    <p>Click to the button to append a new paragraph</p>
+    <p class="p3">Hello</p>
+    <p class="p4">My</p>
+    <p class="p5">World</p>
+    <button class="b3">Append</button>
+    <hr>
+
+</article>
+
+</main>
+<body>
+    
+</body>
+</html>
