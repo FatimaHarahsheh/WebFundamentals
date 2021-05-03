@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Resgsration Form </title>
+    </head>
+    <body>
+        <form>
+        <h1>My Registriation Form </h1>
+        <label for="Fname">First Name : </label> 
+        <input type="text" name="First name" id="fname"> <br> <br>
+        <label for="lname">Last  Name : </label>
+        <input type="text" name="last name" id="lname"><br> <br> 
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email"> <br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd"> <br><br>
+        <label for="pwd">Pw Confirm:</label>
+        <input type="password" id="pwd" name="pwd"> <br> <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"> <br><br>
+        <input type="radio" name="gender" value="male"> Male 
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other <br>
+        <label for="fav_land"> Favourite language</label>
+        <input list="languages" name="languages">
+        <datalist id="languages">
+          <option value="JavaScript">
+          <option value="php">
+          <option value="c#">
+          <option value="C++">
+          <option value="Paython">
+        </datalist> <br>
+        <label for="description">type a short description about you :</label> <br>
+        <textarea name="descripton" id="" cols="30" rows="10"></textarea> <br>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

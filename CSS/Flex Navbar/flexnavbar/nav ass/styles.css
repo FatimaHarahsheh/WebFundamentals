@@ -1,0 +1,19 @@
+
+.center-box
+{
+ width: 811px;
+height: 254px;
+background-color: blue;
+border:solid white  ;
+border-width: 30px;
+display: flex;
+justify-content: center;
+
+}
+.center-item{
+    
+    background-color: white;
+    height: 100px;
+    width: 110px;
+    margin: 80px;    
+}

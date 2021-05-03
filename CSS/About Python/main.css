@@ -1,0 +1,140 @@
+*{
+    margin: 0 auto ;
+    padding: 0 auto;
+
+}
+
+
+a{
+    color: white;
+}
+
+.container{
+    background:linear-gradient(to top,white ,blue );
+    min-width: 970px;
+    max-width: 1300px;
+    height: auto;   
+}
+
+header{
+    display: flex;
+    width: auto;
+}
+
+.search{
+    display: inline-block;
+}
+
+.searchbox{
+    background-color: silver;
+    width: 200px;
+    height: 50px ;
+    border-radius: 15px;
+}
+
+#search1{
+    width: 102px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+nav{
+    background:rgb(116, 139, 216);
+    display: flex;
+    font-size: 30px;
+    min-width: 10px;
+    min-height: 70px;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+
+.aside {
+    display:inline-block;
+
+
+}
+
+.aside li::before{
+    content:"»";
+
+
+}
+
+.aside ul
+{
+    
+    margin-top: 0px;
+    list-style: none;
+    text-align: center;
+    float: left;
+
+}
+article{
+    width: 428px;
+    vertical-align: top;
+    margin-top: -68px;
+    text-align: center;
+
+}
+
+.main{
+    width:900px;
+    margin-top: 0;
+}
+
+.main h2{
+    color: #bebe18;
+}
+
+.main h3{
+    color: white;
+}
+
+.boxall{
+    width:900px;
+    display: flex;
+
+}
+
+.box{
+    width:600px;
+    text-align: justify;
+    margin: 20px;
+    border-top: solid  4px white;
+}
+footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: teal;
+    text-decoration: none;
+}
+
+.copy h4{
+    color: teal;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+.page
+{
+    width: 970px;
+    padding: 15px;
+    background-color:rgb(3, 86, 114) ;
+    display: inline-block;
+}
+.page-above
+{
+    background-color: red;
+    border-radius: 15px;
+}
+.page-above h1{
+    margin: 15px;
+    font-size: 45px;
+}
+.page-sidebar{
+    margin-right: 10px;
+    background-color:cyan ;
+    vertical-align: top;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 0px;
+    font-size: 15px;
+    
+}
+.page-sidebar ul
+{
+    margin-right: 6px;
+}
+.page-sidebar h4
+{
+    margin-left: 30px;
+    
+}
+.page-sidebar a{
+    color: blue;
+}
+.page-text{
+    display: inline-block;
+    width: 700px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-size: 14px;
+   padding: 15px;
+}
+.page-down{
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: gray;
+
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
