@@ -1,0 +1,143 @@
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd desktop
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ mkdir Test
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ touch indexx.html                                                                 touch main.css
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ touch commands.txt
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ cp indexx.html  index__2.html
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ mkdir destination2
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ mv index__2.html
+mv: missing destination file operand after 'index__2.html'
+Try 'mv --help' for more information.
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd Test
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ mv index__2.html../destination2
+mv: missing destination file operand after 'index__2.html../destination2'
+Try 'mv --help' for more information.
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ ^C
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ mv index__2.html ../destination2
+mv: cannot stat 'index__2.html': No such file or directory
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd Text
+bash: cd: Text: No such file or directory
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd Desktop
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Desktop
+$ cd Test
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Desktop/Test
+$ touch indexx.html                                                                touch main.css                                                                   touch index__2.html
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Desktop/Test
+$ mv index__2.html ../destination2
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Desktop/Test
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ rm main.css
+rm: cannot remove 'main.css': No such file or directory
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd Test
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ rm main.css
+rm: cannot remove 'main.css': No such file or directory
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ rm main.css
+rm: cannot remove 'main.css': No such file or directory
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ rm  main.css
+rm: cannot remove 'main.css': No such file or directory
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ touch main.css
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ rm main.css
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ ls
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ pwd
+/c/Users/FATMA/Test
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/Test
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd desktop
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ sl
+bash: sl: command not found
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ ls
+'Microsoft Edge.lnk'*       assnigment011.txt   html1/          main.css
+ Test/                      commands.txt        html1.rar       touch
+'Visual Studio Code.lnk'*   desktop.ini         index.html
+ academy-ninja-master/      destination2/       index__2.html
+ academy-ninja-master.zip   fatima2.html        indexx.html
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ rmdir destination2
+rmdir: failed to remove 'destination2': Directory not empty
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~/desktop
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd destination2
+bash: cd: destination2: No such file or directory
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ cd destination2
+bash: cd: destination2: No such file or directory
+
+FATMA@DESKTOP-D8G1D71 MINGW64 ~
+$ rm -rf destination2
