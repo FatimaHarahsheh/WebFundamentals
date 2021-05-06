@@ -1,0 +1,4 @@
+insert into table values ("");
+delete from tables where value ="";
+update into table where value ="" values="";
+select * from table 
